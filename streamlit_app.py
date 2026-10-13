@@ -25,7 +25,7 @@ h1,h2,h3{{color:{CAD}!important}}
 
 @st.cache_data
 def load():
-    return pd.read_csv(latihan1.cvs).parent / "data" / "latihan1.csv")
+    return pd.read_csv(latihan1.cvs)
 
 
 df = load()
